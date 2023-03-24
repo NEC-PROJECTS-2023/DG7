@@ -3,7 +3,9 @@ Abstractive Text Summarization Using BART Model
 Presented By:
 
   P.Gayathri (19471A05N6)
+  
   M.Naga Sirisha (20475A0505)
+  
   Ch.Dhanalakshmi (19471A05K3)
   
 Introduction:
