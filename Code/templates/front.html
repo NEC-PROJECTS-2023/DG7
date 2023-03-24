@@ -1,0 +1,91 @@
+<DOCTYPE html>
+<html>
+<head>
+<title>TEXT SUMMARIZATION APP</title>
+
+<style>
+.text{
+color:white;
+font-size:30px;
+margin-left:100px;
+}
+.text2{
+    color:white;
+    font-size: 30px;
+    margin-left: 450px;
+}
+.input{
+margin-left:50px;
+ background:transparent;
+ width:450px;
+ height:200px;
+ color:black;
+ font-family:timesnewroman;
+ font-size:15px;
+border-color: black;
+border-radius: 20px;
+}
+.output{
+    background: transparent;
+    width: 450px;
+    height:200px;
+    margin-left: 250px;
+    border-color: black;
+    border-radius: 20px;
+    color:white;
+}
+.button{
+margin-left:200px;
+background:none;
+padding: 10px 15px;
+border-radius: 12px 25%;
+border-color:white;
+font-size: 15px;
+}
+.image{
+background-repeat:no-repeat;
+background-size:100% 100%;
+background-position:absolute;
+}
+.title{
+    color:whitesmoke;
+    margin-left: 400px;
+    
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding: 0px 100px;
+    background-image: linear-gradient(#033474,#012733);
+}
+.toolbar{
+    color:whitesmoke;
+    font-size:30px;
+    margin-left: 350px;
+   
+}
+</style>
+</head>
+<nav>
+    <label class="toolbar">TEXT SUMMARIZATION APP</label>
+</nav>
+<body background="C:\Users\Gayathri Palepu\OneDrive\Pictures\Saved Pictures\one.jpg" class="image">
+<form action="/summarize" method="post">
+<div><br><br><br><br><br><br><br><br>
+<label class="text"><strong>Enter Your Text Here<strong></label>
+    <label class="text2"><strong>Your Summarized Text</strong></label><br><br>
+ <textarea class="input" type="text" required=True name="input1"></textarea>
+ <textarea class="output" type="text"></textarea><br><br>
+ <input class="button" type="submit" value="Summarize">
+ </div>
+ </form>
+ 
+</body>
+</html>
+
